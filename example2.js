@@ -46,3 +46,44 @@ const value2 = !((true && false) || (true && false) || !false);
 // false
 
 console.log(value2);
+
+/**
+ * 비교 연산자
+ * 사용할때는 꼭 3글자를 (!== or ===) 이용하자!
+ */
+
+const g = 1;
+const h = 1;
+
+const equals = g === h;
+// const equals = g == h; 아래도 사용할 수 있다.
+// == 과 ====의 차이점
+// 두개일때는 타입을 검사하지 않지만 ===일때는 타입을 검사하기 때문에 예를 들어 1과 '1'은 == 일때는 true, === 일때는 false이다.
+console.log(equals);
+
+const i = 1;
+const j = '1';
+const notEquals = i !== j;
+
+console.log(notEquals);
+
+console.log('===============================');
+
+const k = 10;
+const l = 15;
+const n = 15;
+
+console.log(k < l);
+console.log(l > k);
+console.log(l >= k);
+console.log(k <= n);
+
+console.log('===============================');
+
+/**
+ * 문자열을 붙이는 방법
+ */
+
+const m = '안녕';
+const o = '하세요';
+console.log(m + o);

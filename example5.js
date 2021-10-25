@@ -1,5 +1,5 @@
 /**
- * fucntion1
+ * fucntion1,2
  */
 
 function add(a, b) {
